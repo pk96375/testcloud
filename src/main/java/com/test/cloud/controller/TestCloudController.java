@@ -9,6 +9,6 @@ public class TestCloudController {
 
 	@GetMapping(value = "/sayhello")
 	public String sayHelloToCloud(@RequestParam("name") String name) {
-		return "Message from OpenShift clouds : Hello " + name;
+		return "Message from OpenShift cloud changes : Hello " + name;
 	}
 }
